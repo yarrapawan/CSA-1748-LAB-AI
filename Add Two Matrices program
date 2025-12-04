@@ -1,0 +1,19 @@
+n = int(input("Enter the no of elements in a matrix: "))
+b = []
+for i in range(n):
+    a = list(map(int,input("Enter the elements: ").split()))
+    b.append(a)
+for i in b:
+    print(*i)
+c = []
+for i in range(n):
+    a = list(map(int,input("Enter the elements: ").split()))
+    c.append(a)
+for i in c:
+    print(*i)
+sum = [[0]*n for i in range(n)]
+for i in range(n):
+    for j in range(n):
+        sum[i][j] += b[i][j] + c[i][j]
+for i in sum:
+    print(*i)
