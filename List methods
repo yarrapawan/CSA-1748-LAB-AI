@@ -1,0 +1,14 @@
+a = [1,2,3,4,5,6]
+a.append(7)
+print(a)
+
+b = [9,0]
+a.extend(b)
+print(a)
+
+a.pop()
+print(a)
+a.pop(len(a)-4)
+print(a)
+
+print(a+b)
