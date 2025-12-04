@@ -1,0 +1,7 @@
+string = input("enter the string: ")
+punctuation = "',.:;"
+result_string = ""
+for i in string:
+    if i not in punctuation:
+        result_string += i
+print(result_string)
