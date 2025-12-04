@@ -1,0 +1,5 @@
+a = input("Enter te sentence: ")
+words = a.split()
+words.sort()
+sentence = " ".join(words)
+print(sentence)
