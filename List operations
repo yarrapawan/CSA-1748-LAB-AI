@@ -1,0 +1,10 @@
+nums=[1,2,3,4,5,6,"pawan","yarra",7,9,0,8]
+print(nums[2:6])
+for i in nums:
+  print(i)
+print()
+print(f"the length of the list is {len(nums)}")
+nums_2=[3,2,1,24,9,78,76,45,1]
+num_3=nums_2+nums
+print(f"the Concatenation of the two strings{num_3}")
+print("Yes" if "Pawan" in nums else "NO")
