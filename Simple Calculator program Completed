@@ -1,0 +1,13 @@
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+perform = input("Enter which program have to do(ADD,SUB,MUL,DIV): ").lower()
+if perform == "add":
+    print(n1+n2)
+elif perform == "sub":
+    print(n1-n2)   
+elif perform == "mul":
+    print(n1*n2)
+elif perform == "div":
+    print(n1/n2)
+else:
+    print("You have entered the wrong perfrom please try again: ")
